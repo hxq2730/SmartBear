@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bo Test Allure">
+    <test name="Chay Test Login">
+        <classes>
+            <class name="org.example.tests.DataDrivenLoginTest"/>
+        </classes>
+    </test>
+
+</suite>

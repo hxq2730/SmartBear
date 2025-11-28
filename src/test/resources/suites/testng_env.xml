@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Multi Env">
+    <test name="Test tren DEV">
+        <parameter name="url" value="https://the-internet.herokuapp.com/login"/>
+        <parameter name="username" value="tomsmith"/>
+        <parameter name="password" value="SuperSecretPassword!"/>
+
+        <classes>
+            <class name="org.example.tests.LoginParameterTest"/>
+        </classes>
+    </test>
+
+    <test name="Test tren STAGING">
+        <parameter name="url" value="https://bearstore-testsite.smartbear.com/login"/>
+        <parameter name="username" value="itsaigon"/>
+        <parameter name="password" value="123abcd#"/>
+
+        <classes>
+            <class name="org.example.tests.LoginParameterTest"/>
+        </classes>
+    </test>
+
+</suite>
