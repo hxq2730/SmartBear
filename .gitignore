@@ -26,6 +26,7 @@ screenshots/
 allure-results/
 test-output/
 .idea/
+src/test/resources/config.properties
 
 ### NetBeans ###
 /nbproject/private/
