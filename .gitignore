@@ -25,6 +25,7 @@ logs/
 screenshots/
 allure-results/
 test-output/
+.idea/
 
 ### NetBeans ###
 /nbproject/private/
