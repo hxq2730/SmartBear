@@ -45,6 +45,9 @@ public class BaseTest {
             options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 
             //options.addArguments("--incognito");
+            
+            options.addArguments("--headless=new"); // Chạy không giao diện
+            options.addArguments("--window-size=1920,1080"); // Giả lập màn hình to
 
             tmpDriver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
